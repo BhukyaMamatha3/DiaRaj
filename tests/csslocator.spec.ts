@@ -6,7 +6,7 @@ test('login using css selector', async ({ page }) => {
 await page.goto('https://www.qapractice.com/practice-login-form');
 
 //email using css id selector
-await page.locator("#login-email").fill("user@premium.com");
+//await page.locator("#login-email").fill("user@premium.com");
 
 //password using css id selector
 await page.locator("#login-password").fill("user@premium.com");
